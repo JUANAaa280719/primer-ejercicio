@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/gregorios.js"></script>
+    <link rel="stylesheet" href="/CSS/proyecto.css">
+
+</head>
+
+<body>
+    <br>
+    <h1>ESTUDIANTES</h1>
+    <br>
+    <div>
+        <label for="">Nombre
+        <input type="tex" id="idtxtNombre" value="Luisa ">
+    </label>
+        <br>
+        <br>
+        <label for="">Apellido
+
+        <input type="tex" id="idtxtApellido" value=" Bolaños">
+    </label>
+        </br>
+        </br>
+        <label for="">Asignatura
+        <input type="tex" id="idtxtAsignatura" value= "ADSI"> 
+    </label>
+    </div>
+    <div>
+        <br>
+        <label for="">Nota max
+        <input type="tex" id="idtxtNota max ">
+        </br>
+    </label>
+        <br>
+        <br>
+        <label for="">Nota min
+
+        <input type="tex" id="idtxtNota min ">
+    <label>
+        </br>
+        </br>
+        <label for="">Porcentajes</label>
+        </br>
+        </br>
+        <label for=""> %nota1</label>
+        <p id="idtxt%nota1">
+        </p>
+        <br>
+        <label for=""> %nota2</label>
+        <p id="idtxt%nota2"></p>
+        <br>
+
+        <label for=""> %nota3 </label>
+        <br>
+        <p id="idtxt%nota3"></p>
+
+        <br>
+        <br>
+        <label for=""> Notas</label>
+        </br>
+        </br>
+
+        <label for=""> nota1
+        <input type="tex" id="idtxtnota1" value=6>
+        </label>
+        <label for=""> nota2
+            <input type="tex" id="idtxtnota2" value=3>
+            </label>
+        <label for=""> nota3
+                <input type="tex" id="idtxtnota3" value=5>
+                </label>
+        <input type="button" value=" sumar " onclick="suma_notas()">
+    </div>
+    <br>
+
+    <div>
+        <label for="">Suma notas
+            <p id="idparsumanotas"> </p>
+
+        </label>
+        <br>
+        <br>
+        <label for="">Definitiva
+            <p id="idpardefinitiva"> </p>
+    </div>
+
+    <br>
+    <input type="button" value=" presioname " onclick="minombre()">
+    <br>
+    <br>
+    <br>
+    <input type="button" value=" otro boton " onclick="llamame(document.getElementById('idtxtNombre').value,
+    document.getElementById('idtxtApellido').value)">
+    <br>
+    <br>
+    <div>
+         <label for="">Mi Asignatura
+        <p id="idpluisa"></p>
+        </label>
+    </div>
+    <div>
+        <label for="">Mi Nombre y Apellido
+            <p id="idpnom_ape"></p> 
+        </label>
+    </div>
+    <br>
+    <input type="button" value=" division " onclick="division(document.getElementById('idtxtnota1').value,
+    document.getElementById('idtxtnota2').value)">
+    <br>
+    <input type="button" value=" vector " onclick="vector()">
+    <br>
+    <br>
+    <input type="button" value=" matriz " onclick="matriz()">
+    <br>
+</body>
+
+</html>

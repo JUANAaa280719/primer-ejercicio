@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 188, 243);
+    border: 2px solid cornflowerblue;
+    min-height: 100vh;
+}
